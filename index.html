@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>JavaScript</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100%;
+      }
+      .number-display {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .number-input {
+        background-color: blue;
+        display: inline-block;
+        color: white;
+        padding: 0.2em 0.2em;
+        font-size: 2em;
+        border: 3px solid rgb(0, 153, 255);
+        border-radius: 0.2em;
+      }
+
+      .correct {
+        background-color: green;
+      }
+
+      .too-high {
+        background-color: red;
+      }
+
+      .too-low {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instructions"></div>
+    <div class="number-display"></div>
+    <button>check game!</button>
+    <script src="index.js"></script>
+  </body>
+</html>
